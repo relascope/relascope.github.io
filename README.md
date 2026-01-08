@@ -1,5 +1,26 @@
 # relascope.github.io uses Jekyll Now
 
+Jekyll now is prepared for github-pages. 
+
+## Run locally:
+    
+install ruby and bundler
+
+    _bootstrap/ruby-and-ruby-env-install.sh
+
+enter rubyenv and start server
+
+    _start-dev-serverr.sh
+
+We needed Gemfile in root
+
+    source "https://rubygems.org"
+    gem "github-pages", group: :jekyll_plugins
+
+
+bundle exec jekyll serve --livereload
+# Following Jekyll Now README
+
 > March, 2016: If you're on an old version of Jekyll Now and run into a) build warnings or b) syntax highlighting issues caused by [Jekyll 3 and GitHub Pages updates](https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0), just :sparkles:[update your _config.yml](https://github.com/barryclark/jekyll-now/pull/445/files):sparkles: and you'll be set!
 
 # Jekyll Now
